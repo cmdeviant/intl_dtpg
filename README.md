@@ -14,8 +14,9 @@ Long story short: currently (with standard `intl`) there is no way to format a d
 
 ## Installation
 
-+ Install ICU libraries
++ Install ICU libraries and other dependencies
   + i.e. `sudo apt-get install libicu-dev` for Debian-like systems
+  + i.e. `sudo yum install libicu-devel gcc-c++` for CentOS
 + Build and install extension
   + `phpize && ./configure && make && sudo make install`
   > **Note**: if you have PHP installed from sources you should use full paths: `[/path/to/php/]phpize && ./configure --with-php-config=[/path/to/php/]php-config && make && sudo make install` 
